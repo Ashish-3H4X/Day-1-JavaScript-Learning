@@ -8,6 +8,12 @@
      <h2>Varible defined with {let} can not be redeclared </h2>
      
  <p id="demo"></p>
+<p id="block1"></p>
+<p id="block2"></p>
+<p id="block3"></p>
+
+  <h2> But we use the block concept  the we can use the redelacrtion using let keyword </h2>
+
 
  <script>
 
@@ -16,6 +22,27 @@
 
 //  here We redeclared the value of x 
 // let x = 0;  This line gives an Error  to Redeclared 
+
+//  here We use block concept for redeclartion 
+
+{
+    let x =1;
+    document.getElementById('block1').innerHTML=" value of x fromm block1 "+x+" . "
+}
+
+{
+    let x = 2;
+     document.getElementById('block2').innerHTML=" value of x fromm block2 "+x+" . "
+}
+
+{
+    let x =3;
+     document.getElementById('block3').innerHTML=" value of x fromm block3 "+x+" . "
+}
+
+
+
+
 
  </script>
     
