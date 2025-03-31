@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding String and Number</title>
+</head>
+<body>
+    <h2>Adding String And Number</h2>
+ <p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+ <script>
+  var x = 3+5;
+  var y ="5"+5;
+  var z = "hello"+5;
+ document.getElementById('demo1').innerHTML=
+ `var x = 3+5;<br>
+ result = ${x};
+ `
+ document.getElementById('demo2').innerHTML=
+ ` var y ="5"+5;<br>
+ result = ${y};
+ `
+ document.getElementById('demo3').innerHTML=
+ `  var z = "hello"+5;<br>
+ result = ${z};
+ `
+ </script>
+
+
+</body>
+</html>
