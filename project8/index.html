@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>const Object</title>
+</head>
+
+<body>
+    <h2>You can create a constant object </h2>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+  
+
+    <script>
+
+        const cars = { type: "flate", model: "500", color: 'white' };
+        document.getElementById('demo1').innerHTML = JSON.stringify(cars);
+        // you cn change the property 
+        cars.color = "red";
+        document.getElementById('demo2').innerHTML = JSON.stringify(cars);
+        // you can add a property
+        cars.owner ="ASHISH";
+        document.getElementById('demo3').innerHTML = JSON.stringify(cars);
+    </script>
+
+</body>
+
+</html>
