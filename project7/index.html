@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Const Variable</title>
+</head>
+<body>
+      <h2> lets play with arrray while we use const keyword </h2>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+
+
+<script>
+ const cars = ["saab","volvo" ,"BMW"]
+document.getElementById("demo1").innerHTML="  Before changing:  "+cars+"";
+// WE can change the element of array cars
+
+cars[0]="toyota";
+
+document.getElementById('demo2').innerHTML=" After changing the elements:   "+cars+"";
+// we can add the more value in this
+
+cars.push("Audi");
+document.getElementById('demo3').innerHTML=" After adding  the elements:    "+cars+"";
+
+</script>
+
+
+
+</body>
+</html>
