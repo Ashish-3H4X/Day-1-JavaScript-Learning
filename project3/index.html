@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Scope</title>
+</head>
+<body>
+    <h2>Global Scope</h2>
+<p id="demo"></p>
+<script>
+{
+    var x = 5;
+
+
+}
+
+//   <!--    x can used outside of block -->
+//   <!-- in global Scope means  once it can be declared then we can access that varible within block or outside of block  -->
+//    <!-- we use the value of x outside of the block  -->
+
+document.getElementById('demo').innerHTML=""+x+"";
+
+</script>
+</body>
+</html>
